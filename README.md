@@ -35,3 +35,6 @@ Default filter is fzf if variable is not set.
 [peco]:https://github.com/peco/peco
 [fzf]:https://github.com/junegunn/fzf
 [percol]:https://github.com/mooz/percol
+
+## Difference from Original
+Reload [`direnv`](https://github.com/direnv/direnv) after repository selection

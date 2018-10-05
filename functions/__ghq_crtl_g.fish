@@ -13,5 +13,6 @@ function __ghq_crtl_g -d 'Repository search'
             printf "\nERROR: plugin-ghq is not support '$selector'.\n"
     end
     [ -n "$select" ]; and cd "$select"
+    [ (which direnv) ]; and eval (direnv export fish)
     commandline -f repaint
 end
